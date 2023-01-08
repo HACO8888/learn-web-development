@@ -1,0 +1,23 @@
+{
+  "name": "learn-web-development",
+  "version": "1.0.0",
+  "description": "Teach you develop a website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MRHACO/learn-web-development.git"
+  },
+  "author": "HACO Lazp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MRHACO/learn-web-development/issues"
+  },
+  "homepage": "https://github.com/MRHACO/learn-web-development#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.60"
+  }
+}
