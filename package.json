@@ -4,7 +4,7 @@
   "description": "Teach you develop a website.",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs --port 3000",
     "build": "vuepress build docs"
   },
   "repository": {
