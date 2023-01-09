@@ -35,14 +35,6 @@ module.exports = {
       "看來你得到了一個壞掉的連結。",
     ],
     navbar: [
-      //   {
-      //     text: "隱私權政策",
-      //     link: "/privacy-and-policy.html",
-      //   },
-      //   {
-      //     text: "Discord",
-      //     link: "https://discord.gg/RtsckgRjqJ",
-      //   },
       {
         text: "Github",
         link: "https://github.com/MRHACO/learn/web-web-development",
@@ -61,27 +53,6 @@ module.exports = {
           {
             text: "├─ 教學大綱介紹",
             link: "/learn/web",
-            // children: [
-            //   {
-            //     text: "├─ Day 1",
-            //     link: "/learn/web/day1",
-            //     collapsible: true,
-            //     children: [
-            //       {
-            //         text: "├─ 子單元 1",
-            //         link: "",
-            //       },
-            //       {
-            //         text: "├─ 子單元 2",
-            //         link: "",
-            //       },
-            //       {
-            //         text: "└─ 子單元 3",
-            //         link: "",
-            //       },
-            //     ],
-            //   },
-            // ],
           },
           {
             text: "├─ Day 1",
