@@ -11,6 +11,6 @@ next: false
 
 ::: details 請選您想要學習的內容
 
-<a href="/learn/web">網站製作教學</a>
+[網站前端製作教學](/learn/web)
 
 :::

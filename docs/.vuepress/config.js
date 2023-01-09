@@ -42,11 +42,11 @@ module.exports = {
     ],
     sidebar: [
       {
-        text: "教學選擇在此",
+        text: "教學內容選擇",
         link: "/learn",
       },
       {
-        text: "網站製作教學",
+        text: "網站前端製作教學",
         link: "/learn/web",
         collapsible: true,
         children: [
@@ -59,18 +59,18 @@ module.exports = {
             link: "/learn/web/day1",
             collapsible: true,
             children: [
-              {
-                text: "├─ 子單元 1",
-                link: "",
-              },
-              {
-                text: "├─ 子單元 2",
-                link: "",
-              },
-              {
-                text: "└─ 子單元 3",
-                link: "",
-              },
+              // {
+              //   text: "├─ 子單元 1",
+              //   link: "",
+              // },
+              // {
+              //   text: "├─ 子單元 2",
+              //   link: "",
+              // },
+              // {
+              //   text: "└─ 子單元 3",
+              //   link: "",
+              // },
             ],
           },
         ],
