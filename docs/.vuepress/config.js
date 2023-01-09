@@ -8,14 +8,14 @@ module.exports = {
     ["meta", { charset: "utf-8" }],
   ],
   lang: "zh-TW",
-  title: "學習製作網站",
-  description: "一個最基礎的全方面網站教學！",
+  title: "哈蕉程式教學",
+  description: "一個最基礎的全方位程式教學！",
   theme: defaultTheme({
     editLink: true,
     lastUpdated: true,
     contributors: true,
     //   logo: '/HACO-LOGO.png',
-    docsRepo: "MRHACO/learn-web-development",
+    docsRepo: "MRHACO/learn/web-web-development",
     docsBranch: "master",
     docsDir: "docs",
     editLinkPattern: ":repo/edit/:branch/:path",
@@ -35,121 +35,58 @@ module.exports = {
       "看來你得到了一個壞掉的連結。",
     ],
     navbar: [
-    //   {
-    //     text: "隱私權政策",
-    //     link: "/privacy-and-policy.html",
-    //   },
-    //   {
-    //     text: "Discord",
-    //     link: "https://discord.gg/RtsckgRjqJ",
-    //   },
+      //   {
+      //     text: "隱私權政策",
+      //     link: "/privacy-and-policy.html",
+      //   },
+      //   {
+      //     text: "Discord",
+      //     link: "https://discord.gg/RtsckgRjqJ",
+      //   },
       {
         text: "Github",
-        link: "https://github.com/MRHACO/learn-web-development",
+        link: "https://github.com/MRHACO/learn/web-web-development",
       },
     ],
     sidebar: [
       {
-        text: "教學大綱介紹",
+        text: "教學選擇在此",
         link: "/learn",
       },
       {
         text: "網站製作教學",
-        link: "",
+        link: "/learn/web",
+        collapsible: true,
         children: [
           {
+            text: "├─ 教學大綱介紹",
+            link: "/learn/web",
+            // children: [
+            //   {
+            //     text: "├─ Day 1",
+            //     link: "/learn/web/day1",
+            //     collapsible: true,
+            //     children: [
+            //       {
+            //         text: "├─ 子單元 1",
+            //         link: "",
+            //       },
+            //       {
+            //         text: "├─ 子單元 2",
+            //         link: "",
+            //       },
+            //       {
+            //         text: "└─ 子單元 3",
+            //         link: "",
+            //       },
+            //     ],
+            //   },
+            // ],
+          },
+          {
             text: "├─ Day 1",
-            link: "/learn/day1",
-            children: [
-              {
-                text: "├─ 子單元 1",
-                link: "",
-              },
-              {
-                text: "├─ 子單元 2",
-                link: "",
-              },
-              {
-                text: "└─ 子單元 3",
-                link: "",
-              },
-            ],
-          },
-          {
-            text: "├─ Day 2",
-            link: "/learn/day2",
-            children: [
-              {
-                text: "├─ 子單元 1",
-                link: "",
-              },
-              {
-                text: "├─ 子單元 2",
-                link: "",
-              },
-              {
-                text: "└─ 子單元 3",
-                link: "",
-              },
-            ],
-          },
-          {
-            text: "├─ Day 3",
-            link: "/learn/day3",
-            children: [
-              {
-                text: "├─ 子單元 1",
-                link: "",
-              },
-              {
-                text: "├─ 子單元 2",
-                link: "",
-              },
-              {
-                text: "└─ 子單元 3",
-                link: "",
-              },
-            ],
-          },
-          {
-            text: "├─ Day 4",
-            link: "/learn/day4",
-            children: [
-              {
-                text: "├─ 子單元 1",
-                link: "",
-              },
-              {
-                text: "├─ 子單元 2",
-                link: "",
-              },
-              {
-                text: "└─ 子單元 3",
-                link: "",
-              },
-            ],
-          },
-          {
-            text: "├─ Day 5",
-            link: "/learn/day5",
-            children: [
-              {
-                text: "├─ 子單元 1",
-                link: "",
-              },
-              {
-                text: "├─ 子單元 2",
-                link: "",
-              },
-              {
-                text: "└─ 子單元 3",
-                link: "",
-              },
-            ],
-          },
-          {
-            text: "└─ Day 6",
-            link: "/learn/day6",
+            link: "/learn/web/day1",
+            collapsible: true,
             children: [
               {
                 text: "├─ 子單元 1",
