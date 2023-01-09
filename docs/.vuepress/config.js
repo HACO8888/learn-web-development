@@ -15,7 +15,7 @@ module.exports = {
     lastUpdated: true,
     contributors: true,
     //   logo: '/HACO-LOGO.png',
-    docsRepo: "MRHACO/learn/web-web-development",
+    docsRepo: "MRHACO/learn-web-development",
     docsBranch: "master",
     docsDir: "docs",
     editLinkPattern: ":repo/edit/:branch/:path",
