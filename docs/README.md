@@ -14,5 +14,5 @@ actions:
 #   details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
 # - title: Performant
 #   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2023 程式教學網
+footer: Copyright © 2023 哈蕉程式教學. All rights reserved.
 ---
