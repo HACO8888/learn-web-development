@@ -58,20 +58,16 @@ module.exports = {
             text: "├─ Day 1",
             link: "/learn/web/day1",
             collapsible: true,
-            children: [
-              // {
-              //   text: "├─ 子單元 1",
-              //   link: "",
-              // },
-              // {
-              //   text: "├─ 子單元 2",
-              //   link: "",
-              // },
-              // {
-              //   text: "└─ 子單元 3",
-              //   link: "",
-              // },
-            ],
+          },
+          {
+            text: "├─ Day 2",
+            link: "/learn/web/day2",
+            collapsible: true,
+          },
+          {
+            text: "├─ Day 3",
+            link: "/learn/web/day3",
+            collapsible: true,
           },
         ],
       },
