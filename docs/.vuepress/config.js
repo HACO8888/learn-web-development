@@ -53,21 +53,22 @@ module.exports = {
           {
             text: "├─ 教學大綱介紹",
             link: "/learn/web",
+            children: [],
           },
           {
             text: "├─ Day 1",
             link: "/learn/web/day1",
-            collapsible: true,
+            children: [],
           },
           {
             text: "├─ Day 2",
             link: "/learn/web/day2",
-            collapsible: true,
+            children: [],
           },
           {
             text: "├─ Day 3",
             link: "/learn/web/day3",
-            collapsible: true,
+            children: [],
           },
         ],
       },
