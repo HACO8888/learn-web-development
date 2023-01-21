@@ -75,6 +75,11 @@ module.exports = {
             link: "/learn/web/day4",
             children: [],
           },
+          {
+            text: "├─ Day 5",
+            link: "/learn/web/day5",
+            children: [],
+          },
         ],
       },
     ],
